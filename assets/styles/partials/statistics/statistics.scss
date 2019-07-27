@@ -1,0 +1,37 @@
+.statistics {
+  padding: $spacing-xl 0;
+
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+    margin-left: -$spacing-sm;
+    margin-right: -$spacing-sm;
+
+    .list-item {
+      width: calc(100% / 4);
+      padding-left: $spacing-sm;
+      padding-right: $spacing-sm;
+      text-align: center;
+
+      .heading {
+        @extend .text;
+        @extend .text--tertiary;
+        @extend .text--xl;
+
+        margin-top: 0;
+        margin-bottom: $spacing-xs;
+      }
+
+      .subheading {
+        margin-top: $spacing-xs;
+        @extend .text;
+        @extend .text--sm;
+        @extend .text--default;
+      }
+    }
+  }
+}
