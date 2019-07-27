@@ -9,6 +9,7 @@
 @import './partials/premium-features/premium-features';
 @import './partials/integration-partners/integration-partners';
 @import './partials/action-heroshot/action-heroshot';
+@import './partials/footer/footer';
 
 .header-wrapper {
   position: absolute;
@@ -23,4 +24,8 @@
 
 .action-heroshot-wrapper {
   @extend .bg--cyan;
+}
+
+.footer-wrapper {
+  @extend .bg--blue;
 }
