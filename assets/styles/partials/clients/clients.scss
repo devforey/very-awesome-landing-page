@@ -1,0 +1,22 @@
+.clients {
+  padding: $spacing-md 0;
+
+  .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+
+    .list-item {
+      width: calc(100% / 7);
+
+      img {
+        min-width: 100%;
+        height: auto;
+        background: black;
+      }
+    }
+  }
+}
