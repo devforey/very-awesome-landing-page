@@ -1,8 +1,9 @@
 // Buttons
 .button {
   // Defaults
-  padding: $spacing-xs $spacing-md;
+  padding: $spacing-sm $spacing-lg;
   border: 0;
+  min-width: 180px;
 
   // Sizes
   &--lg {
