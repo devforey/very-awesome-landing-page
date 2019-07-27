@@ -6,7 +6,9 @@
 
   // Sizes
   &--lg {
-    padding: $spacing-xs $spacing-md;
+    padding: $spacing-sm $spacing-sm;
+    min-width: 220px;
+    font-size: $font-md;
   }
 
   // Colors
@@ -22,10 +24,18 @@
   &--tertiary {
     background-color: #1774d7;
   }
+
+  // style
+  &--rounded {
+    border-radius: 4px;
+  }
 }
 
 // Text
 .text {
+  // Defaults
+  font-weight: 400;
+
   // Colors
   &--default {
     color: #696969;
@@ -49,6 +59,32 @@
 
   &--white {
     color: #fff;
+  }
+
+  // Sizes
+  &--xxl {
+    font-size: $font-xxl;
+  }
+
+  &--xl {
+    font-size: $font-xl;
+  }
+
+  &--lg {
+    font-size: $font-lg;
+  }
+
+  &--md {
+    font-size: $font-md;
+  }
+
+  // Styles
+  &--bold {
+    font-weight: 700;
+  }
+
+  &--semibold {
+    font-weight: 500;
   }
 }
 

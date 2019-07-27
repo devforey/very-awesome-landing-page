@@ -1,0 +1,24 @@
+.heroshot {
+  height: 40vh;
+  min-height: 450px;
+  padding: $spacing-lg;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .welcome-heading {
+    margin: 0;
+    margin-bottom: $spacing-md;
+  }
+
+  .welcome-subheading {
+    margin: 0;
+    margin-bottom: $spacing-md;
+  }
+
+  .welcome-note {
+    margin: $spacing-lg 0;
+  }
+}
