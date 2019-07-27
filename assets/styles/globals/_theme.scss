@@ -19,7 +19,7 @@
   }
 
   &--secondary {
-    background-color: #2dd8d1;
+    background-color: $cyan;
   }
 
   &--tertiary {
@@ -51,7 +51,7 @@
   }
 
   &--tertiary {
-    color: #2dd8d1;
+    color: $cyan;
   }
 
   &--inactive {
@@ -60,6 +60,10 @@
 
   &--white {
     color: #fff;
+  }
+
+  &--black {
+    color: #000;
   }
 
   // Sizes
@@ -104,5 +108,9 @@
 
   &--blue {
     background-color: #1774d7;
+  }
+
+  &--cyan {
+    background-color: $cyan;
   }
 }
