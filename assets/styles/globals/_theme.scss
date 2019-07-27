@@ -1,0 +1,52 @@
+// Buttons
+.button {
+  &--primary {
+    background-color: #136093;
+  }
+
+  &--secondary {
+    background-color: #2dd8d1;
+  }
+
+  &--tertiary {
+    background-color: #1774d7;
+  }
+}
+
+// Text
+.text {
+  // Colors
+  &--default {
+    color: #696969;
+  }
+
+  &--primary {
+    color: #136093;
+  }
+
+  &--secondary {
+    color: #044165;
+  }
+
+  &--tertiary {
+    color: #2dd8d1;
+  }
+
+  &--inactive {
+    color: #cbcbcb;
+  }
+}
+
+.bg {
+  &--washed {
+    background-color: #f2f2f2;
+  }
+
+  &--white {
+    background-color: #ffffff;
+  }
+
+  &--blue {
+    background-color: #1774d7;
+  }
+}
