@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: $spacing-lg;
+  @extend .bg--blue; // TODO: Replace with the image
+
+  .logo {
+    width: 128px;
+    height: 32px;
+    background: black;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+
+    .link {
+      padding: 0;
+      margin-right: $spacing-md;
+
+      a {
+        @extend .text--white;
+        text-decoration: none;
+      }
+    }
+  }
+}

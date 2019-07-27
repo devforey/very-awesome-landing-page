@@ -1,7 +1,18 @@
 // Buttons
 .button {
+  // Defaults
+  padding: $spacing-xs $spacing-md;
+  border: 0;
+
+  // Sizes
+  &--lg {
+    padding: $spacing-xs $spacing-md;
+  }
+
+  // Colors
   &--primary {
     background-color: #136093;
+    color: #fff;
   }
 
   &--secondary {
@@ -34,6 +45,10 @@
 
   &--inactive {
     color: #cbcbcb;
+  }
+
+  &--white {
+    color: #fff;
   }
 }
 
