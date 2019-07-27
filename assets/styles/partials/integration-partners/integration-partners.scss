@@ -1,0 +1,67 @@
+.integration-partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: $spacing-lg 0;
+
+  .heading {
+    text-align: center;
+    margin: 0;
+    margin-top: $spacing-xl;
+    margin-bottom: $spacing-sm;
+
+    @extend .text;
+    @extend .text--lg;
+    @extend .text--black;
+  }
+
+  .description {
+    text-align: center;
+    margin: 0;
+    margin-bottom: $spacing-xl;
+
+    @extend .text;
+    @extend .text--sm;
+    @extend .text--tertiary;
+  }
+
+  .partners {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -$spacing-xs;
+    margin-right: -$spacing-xs;
+
+    .partner {
+      flex: 0 0 20%;
+      padding: $spacing-xs;
+
+      .partner-card {
+        @extend .bg--white;
+        @extend .shadows--default;
+        border-radius: 5px;
+        padding: $spacing-md;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 50px;
+          height: 50px;
+          background: black;
+        }
+      }
+    }
+  }
+
+  .full-list-button {
+    @extend .button;
+    @extend .button--secondary;
+    @extend .button--lg;
+    @extend .button--rounded;
+    margin: $spacing-md 0 $spacing-xl 0;
+  }
+}

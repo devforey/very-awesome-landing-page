@@ -7,10 +7,15 @@
 @import './partials/roles/roles';
 @import './partials/features/features';
 @import './partials/premium-features/premium-features';
+@import './partials/integration-partners/integration-partners';
 
 .header-wrapper {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
+}
+
+.integration-partners-wrapper {
+  @extend .bg--washed;
 }

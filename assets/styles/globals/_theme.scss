@@ -15,15 +15,17 @@
   // Colors
   &--primary {
     background-color: #136093;
-    color: #fff;
+    color: $white;
   }
 
   &--secondary {
     background-color: $cyan;
+    color: $white;
   }
 
   &--tertiary {
     background-color: #1774d7;
+    color: $white;
   }
 
   // style
@@ -112,5 +114,12 @@
 
   &--cyan {
     background-color: $cyan;
+  }
+}
+
+// Shadows
+.shadows {
+  &--default {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
 }
