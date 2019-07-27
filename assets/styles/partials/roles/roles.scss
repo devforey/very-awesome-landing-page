@@ -1,0 +1,60 @@
+.roles {
+  padding: $spacing-xl 0;
+
+  .heading {
+    text-align: center;
+    margin: 0;
+    margin-bottom: $spacing-lg;
+
+    @extend .text;
+    @extend .text--xl;
+    @extend .text--tertiary;
+  }
+
+  .list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+
+    .list-item {
+      flex: 0 0 50%;
+      padding: $spacing-md;
+
+      .logo {
+        min-width: 50px;
+        min-height: 50px;
+        background: black;
+
+        position: absolute;
+      }
+
+      .item-heading,
+      .item-description {
+        margin: 0;
+        margin-left: 50px;
+
+        padding-left: $spacing-md;
+      }
+
+      .item-heading {
+        margin-top: $spacing-xs;
+        margin-bottom: $spacing-xs;
+
+        @extend .text;
+        @extend .text--lg;
+        @extend .text--tertiary;
+      }
+
+      .item-description {
+        @extend .text;
+        @extend .text--sm;
+        @extend .text--default;
+      }
+    }
+  }
+}
