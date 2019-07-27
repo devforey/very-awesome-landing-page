@@ -8,6 +8,8 @@
         {{ end }}
     </title>
     {{ block "styles" . }}
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
         {{ $vendor := resources.Get "styles/vendor.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
         <link rel="stylesheet" href="{{ $vendor.Permalink }}">
 
