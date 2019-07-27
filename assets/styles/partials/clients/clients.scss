@@ -9,12 +9,16 @@
     display: flex;
     flex-direction: row;
 
+    margin-left: -$spacing-xs;
+    margin-right: -$spacing-xs;
+
     .list-item {
       width: calc(100% / 7);
+      padding: $spacing-xs;
 
       img {
         min-width: 100%;
-        height: auto;
+        min-height: 50px;
         background: black;
       }
     }
