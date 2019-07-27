@@ -1,0 +1,47 @@
+.action-heroshot {
+  padding: $spacing-xl 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .image-container {
+    flex: 0 0 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: $spacing-md;
+
+    img {
+      min-width: 150px;
+      min-height: 150px;
+      background: black;
+    }
+  }
+
+  .details {
+    flex: 0 0 40%;
+    padding: $spacing-xl;
+
+    .heading {
+      @extend .text;
+      @extend .text--white;
+      @extend .text--bold;
+      @extend .text--xl;
+      margin-bottom: $spacing-xl 0 $spacing-sm 0;
+    }
+    .subheading {
+      @extend .text;
+      @extend .text--default;
+      @extend .text--md;
+      margin-bottom: 0 0 $spacing-sm 0;
+    }
+    .button {
+      @extend .button--lg;
+      @extend .button--primary;
+      @extend .button--rounded;
+    }
+  }
+}
