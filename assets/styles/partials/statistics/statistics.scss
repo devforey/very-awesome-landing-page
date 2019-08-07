@@ -21,6 +21,7 @@
         @extend .text;
         @extend .text--tertiary;
         @extend .text--xl;
+        @extend .text--light;
 
         margin-top: 0;
         margin-bottom: $spacing-xs;

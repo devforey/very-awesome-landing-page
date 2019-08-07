@@ -5,8 +5,9 @@
     margin: $spacing-md 0 0 0;
 
     @extend .text;
-    @extend .text--lg;
+    @extend .text--xl;
     @extend .text--black;
+    @extend .text--light;
     text-align: center;
   }
 

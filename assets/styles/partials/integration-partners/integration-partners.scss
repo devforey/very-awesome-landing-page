@@ -12,8 +12,9 @@
     margin-bottom: $spacing-sm;
 
     @extend .text;
-    @extend .text--lg;
+    @extend .text--xl;
     @extend .text--black;
+    @extend .text--light;
   }
 
   .description {

@@ -1,5 +1,5 @@
 .features {
-  padding: $spacing-lg 0;
+  padding: $spacing-xl 0;
   position: relative;
 
   .navigation-arrows {
@@ -32,6 +32,7 @@
     @extend .text;
     @extend .text--xl;
     @extend .text--tertiary;
+    @extend .text--light;
     text-align: center;
   }
 
@@ -110,8 +111,10 @@
       .feature-heading {
         @extend .text;
         @extend .text--xl;
+        @extend .text--light;
         color: $cyan;
         margin: 0;
+        margin-bottom: $spacing-sm;
       }
 
       .feature-description {
