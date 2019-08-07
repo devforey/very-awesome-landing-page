@@ -38,8 +38,9 @@
     }
     .button {
       @extend .button--lg;
-      @extend .button--primary;
       @extend .button--rounded;
+      background: $blue;
+      color: $white;
     }
   }
 }

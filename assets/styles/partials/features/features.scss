@@ -30,7 +30,7 @@
     margin: $spacing-lg 0 $spacing-xl 0;
 
     @extend .text;
-    @extend .text--lg;
+    @extend .text--xl;
     @extend .text--tertiary;
     text-align: center;
   }
@@ -60,7 +60,7 @@
           font-size: $font-xl;
           color: $white;
           border: 1px solid $white;
-          outline: 5px solid $blue; // TODO: Change this color
+          outline: 5px solid $light-blue; // TODO: Change this color
 
           &:after {
             position: absolute;
@@ -109,8 +109,8 @@
 
       .feature-heading {
         @extend .text;
-        @extend .text--tertiary;
-        @extend .text--lg;
+        @extend .text--xl;
+        color: $cyan;
         margin: 0;
       }
 
