@@ -39,6 +39,7 @@
     .button {
       @extend .button--lg;
       @extend .button--rounded;
+      @extend .button--outlined;
       background: $blue;
       color: $white;
     }

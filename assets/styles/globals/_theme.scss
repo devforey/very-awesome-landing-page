@@ -32,6 +32,11 @@
   &--rounded {
     border-radius: 4px;
   }
+
+  &--outlined {
+    border: 5px solid #9be3f9;
+    border-radius: 5px;
+  }
 }
 
 // Text
