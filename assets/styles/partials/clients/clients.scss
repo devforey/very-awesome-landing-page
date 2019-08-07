@@ -16,10 +16,13 @@
       width: calc(100% / 7);
       padding: $spacing-xs;
 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
       img {
-        min-width: 100%;
-        min-height: 50px;
-        background: black;
+        width: 100%;
+        height: auto;
       }
     }
   }

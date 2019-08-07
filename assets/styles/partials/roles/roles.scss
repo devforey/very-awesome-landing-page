@@ -26,9 +26,8 @@
       padding: $spacing-md;
 
       .logo {
-        min-width: 50px;
-        min-height: 50px;
-        background: black;
+        width: 50px;
+        height: auto;
 
         position: absolute;
       }

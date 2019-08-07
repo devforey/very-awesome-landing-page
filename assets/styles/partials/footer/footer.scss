@@ -3,12 +3,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: $spacing-md 0;
+  padding: $spacing-lg;
 
   .logo {
-    min-width: 150px;
-    height: 50px;
-    background: black;
+    width: auto;
+    height: 32px;
   }
 
   .copyright {

@@ -14,16 +14,15 @@
 
     .previous,
     .next {
-      background: black;
-      height: 100px;
-      width: 50px;
+      background: none;
+      border: none;
+      height: auto;
       margin: 0 $spacing-xl;
-    }
 
-    .previous {
-    }
-
-    .next {
+      img {
+        height: 90px;
+        width: auto;
+      }
     }
   }
 
@@ -84,6 +83,7 @@
 
   .feature {
     margin-top: $spacing-xl;
+    padding-left: $spacing-xl;
 
     display: flex;
     flex-direction: row;
@@ -98,9 +98,8 @@
       align-items: center;
 
       .image {
-        min-width: 60px;
-        min-height: 60px;
-        background: black;
+        width: 450px;
+        height: auto;
       }
     }
 
@@ -127,14 +126,14 @@
         margin-top: $spacing-md;
 
         .feature-item {
-          margin-bottom: $spacing-sm;
+          margin-bottom: $spacing-md;
           @extend .text;
           @extend .text--default;
           @extend .text--sm;
 
           &:before {
-            content: '* ';
-            margin: 0 $spacing-xs 0 $spacing-sm;
+            content: url('/img/bullet.png');
+            margin: 0 $spacing-sm 0 $spacing-sm;
           }
         }
       }

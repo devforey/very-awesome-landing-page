@@ -23,7 +23,9 @@
 }
 
 .action-heroshot-wrapper {
-  @extend .bg--cyan;
+  background-color: #0ac0ea;
+  background-image: url('/img/footer-cuts.png');
+  background-size: cover;
 }
 
 .footer-wrapper {

@@ -3,12 +3,10 @@
   flex-direction: row;
   justify-content: space-between;
   padding: $spacing-lg;
-  @extend .bg--blue; // TODO: Replace with the image
 
   .logo {
-    width: 128px;
+    width: auto;
     height: 32px;
-    background: black;
   }
 
   .links {

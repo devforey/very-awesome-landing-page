@@ -41,7 +41,7 @@
         @extend .bg--white;
         @extend .shadows--default;
         border-radius: 5px;
-        padding: $spacing-md;
+        padding: $spacing-xs;
 
         display: flex;
         flex-direction: row;
@@ -49,9 +49,8 @@
         align-items: center;
 
         img {
-          width: 50px;
-          height: 50px;
-          background: black;
+          width: auto;
+          height: 95px;
         }
       }
     }
